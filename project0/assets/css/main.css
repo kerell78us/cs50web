@@ -17,8 +17,9 @@ header nav ul {
 }
 header nav > li {
   font-weight: 600;
-  font-size: 2rem;
+  font-size: 1.3rem;
   padding: 40px 20px 25px;
+  text-transform: uppercase;
 }
 header nav > li > a {
   text-decoration: none;
