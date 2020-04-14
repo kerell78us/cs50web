@@ -1,0 +1,81 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,600;0,700;0,800;0,900;1,600;1,700;1,800;1,900&family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap');
+
+* {
+	font-family: "Roboto", Arial, Helvetica, sans-serif;
+}
+body {
+	/* display: flex; */
+	font-size: 1.15rem;
+	line-height: 2.25rem;
+	font-weight: 400;
+	background: url('../img/kse-page-background.png');
+	background-size: cover;
+	background-repeat: no-repeat;
+}
+a {
+	color: #111111 !important;
+}
+
+h1.title {
+	margin-bottom: 0px;
+	padding-bottom: 0px;
+}
+p {
+	text-align: left;
+	letter-spacing: .25px;
+	line-height: 2.5rem;
+}
+
+header nav a.navbar-brand img {
+	width: 50%;
+}
+
+#intro-wrapper {
+	padding: 40px;
+}
+#intro-wrapper article.intro {
+	margin: 0 auto;
+}
+#intro-wrapper article.intro .intro-btn-wrapper {
+	margin: 0 auto;
+	width: 20%;
+}
+#intro-wrapper article.intro .intro-btn-wrapper button#intro-btn {
+	margin: 0 auto;
+}
+#intro-wrapper article.intro .intro-btn-wrapper button#intro-btn a {
+	color: #fff !important;
+}
+#intro-wrapper article.intro .intro-btn-wrapper button.btn-outline-primary {
+	color: #fff !important;
+	border-color: #fff !important;
+}
+.p20 {
+	padding: 20px;
+}
+.p30 {
+	padding: 30px;
+}
+.p60 {
+	padding: 60px;
+}
+
+.pt20 {
+	padding-top: 20px;
+}
+.pt30 {
+	padding-top: 30px;
+}
+.pt60 {
+	padding-top: 60px;
+}
+
+.pb20 {
+	padding-bottom: 20px;
+}
+.pb30 {
+	padding-bottom: 30px;
+}
+.pb60 {
+	padding-bottom: 60px;
+}

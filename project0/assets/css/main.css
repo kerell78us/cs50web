@@ -1,25 +1,27 @@
-@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,600;0,700;0,800;0,900;1,600;1,700;1,800;1,900&family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap');
-
-* {
-	font-family: "Roboto", Arial, Helvetica, sans-serif;
-}
 body {
-	font-size: 1.35rem;
-	line-height: 2.25rem;
-	font-weight: 400;
+  font-family: "Roboto", Arial, Helvetica, sans-serif;
 }
+
 h1,
 h2,
 h3 {
-	font-family: "Poppins", Arial, Helvetica, sans-serif;
+  font-family: "Poppins", Arial, Helvetica, sans-serif;
 }
+
 h1.title {
-	font-size: 6rem;
-	margin-bottom: 0px;
-	padding-bottom: 0px;
+  font-size: 6rem;
 }
-p {
-	text-align: left;
-	letter-spacing: .25px;
-	line-height: 2.5rem;
+
+header nav ul {
+  float: right;
 }
+header nav > li {
+  font-weight: 600;
+  font-size: 2rem;
+  padding: 40px 20px 25px;
+}
+header nav > li > a {
+  text-decoration: none;
+}
+
+/*# sourceMappingURL=main.css.map */

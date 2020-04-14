@@ -10,19 +10,19 @@
     <!-- Place your kit's code here -->
     <script src="https://kit.fontawesome.com/d93366fb54.js" crossorigin="anonymous"></script>
     <link rel="stylesheet" href="./assets/css/main.css">
+    <link rel="stylesheet" href="./assets/css/style.css">
 
     <title>Hello, I'm Kerwin Ellis - Digital Creative Strategist</title>
   </head>
   <body>
     <main>
-        <header>
-            <nav class="navbar navbar-expand-lg navbar-light bg-white">
+        <header class="pb60">
+            <nav class="navbar navbar-expand-lg navbar-light -bg-white">
                 <div class="container">
 
                     <!-- Brand -->
                     <a class="navbar-brand" href="./index.html">
-                    <img src="./assets/img/brand.svg" class="navbar-brand-img hide" alt="...">
-                    <h1 class="title">Kerwin</h1>
+                    <img src="./assets/svg/kerwin-white.svg" class="navbar-brand-img" alt="kerwin logo">
                     </a>
 
                     <!-- Collapse -->
@@ -30,16 +30,16 @@
                         <!-- Navigation -->
                         <ul class="navbar-nav ml-auto">
                             <li class="nav-item">
-                                <a class="nav-link" id="navbarHome" href="#">Home</a>
+                                <a class="nav-link text-white" id="navbarHome" href="./index.html">Home</a>
                             </li>
                             <li class="nav-item">
-                                <a class="nav-link" id="navbarAbout" href="#">About</a>
+                                <a class="nav-link text-white" id="navbarAbout" href="./about.html">About</a>
                             </li>
                             <li class="nav-item">
-                                <a class="nav-link" id="navbarWork" href="#">Work</a>
+                                <a class="nav-link text-white" id="navbarWork" href="./work.html">Work</a>
                             </li>
                             <li class="nav-item">
-                                <a class="nav-link" id="navbarContact" href="#">Contact</a>
+                                <a class="nav-link text-white" id="navbarContact" href="./contact.html">Contact</a>
                             </li>
                         </ul>
                     </div>
@@ -48,11 +48,15 @@
             </nav>
         </header>
 
-        <section>
+        <section id="intro-wrapper">
             <div class="container">
-                <article>
-                    <h1 class="itle">Hello, I'm Kerwin!</h1>
-                    <p>THe body of my greetings would be placed here</p>
+                <article class="intro">
+                    <h1 class="title text-white text-center">Hello, I'm Kerwin.</h1>
+                    <p class="text-center text-white pt20 pb30">THe body of my greetings would be placed here</p>
+                    <div class="intro-btn-wrapper">
+                    <button id="intro-btn" class="btn btn-outline-primary btn-lg">
+                    <a href="./work.html">See my work&nbsp;&nbsp;&nbsp;<i class="fa fa-arrow-right"></i></a></button>
+                    </div>
                 </article>
             </div>
         </section>
