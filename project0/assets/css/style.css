@@ -45,6 +45,13 @@ header nav a.navbar-brand img {
 }
 #intro-wrapper article.intro .intro-btn-wrapper button#intro-btn a {
 	color: #fff !important;
+	text-transform: uppercase;
+	font-size: 1rem;
+	font-weight: 600;
+	letter-spacing: .45px;
+}
+#intro-wrapper article.intro .intro-btn-wrapper button#intro-btn a:hover {
+	text-decoration: none !important;
 }
 #intro-wrapper article.intro .intro-btn-wrapper button.btn-outline-primary {
 	color: #fff !important;

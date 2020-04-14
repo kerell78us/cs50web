@@ -24,4 +24,8 @@ header nav > li > a {
   text-decoration: none;
 }
 
+#intro-wrapper article.intro .intro-btn-wrapper button.btn-outline-primary:hover {
+  background-color: #d92891;
+}
+
 /*# sourceMappingURL=main.css.map */
