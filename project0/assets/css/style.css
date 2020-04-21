@@ -12,6 +12,9 @@ body {
 	background-size: cover;
 	background-repeat: no-repeat;
 }
+.body-blur {
+	filter: blur(50%);
+}
 a {
 	color: #111111 !important;
 }
@@ -30,7 +33,13 @@ header nav a.navbar-brand img {
 	width: 50%;
 }
 
-#intro-wrapper {
+header nav ul > li.nav-item a.active {
+	color: #d92891 !important;
+}
+
+#intro-wrapper,
+#portfolio-wrapper,
+#about-wrapper {
 	align-items: center;
 	padding: 100px;
 }
@@ -63,6 +72,39 @@ header nav a.navbar-brand img {
 	color: #fff !important;
 	border-color: #fff !important;
 }
+
+#portfolio-wrapper article.portfolio,
+#about-wrapper article.about {
+	margin: 0 auto;
+	width: 100%;
+}
+#portfolio-wrapper article.portfolio p,
+#about-wrapper article.about p {
+	font-size: 1.75rem;
+	line-height: 2.95rem;
+	padding-left: 11%;
+	padding-right: 11%;
+}
+#portfolio-wrapper article.portfolio ol.portfolio-items-wrapper > li {
+	list-style: none;
+}
+#portfolio-wrapper article.portfolio ol.portfolio-items-wrapper > li.portfolio-item {
+	list-style: none;
+	float: left;
+	margin: 15px 0;
+}
+#portfolio-wrapper article.portfolio ol.portfolio-items-wrapper li.portfolio-item img.img-responsive,
+#about-wrapper article.about .about-content {
+	width: 100%;
+}
+
+#about-wrapper article.about .about-content p {
+	font-size: 1.75rem;
+	line-height: 2.95rem;
+	padding-left: 11%;
+	padding-right: 11%;
+}
+
 .p20 {
 	padding: 20px;
 }
